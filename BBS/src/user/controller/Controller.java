@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import usesr.action.LoginAction;
-import usesr.action.LogoutAction;
+import user.action.LoginAction;
+import user.action.LogoutAction;
 
 @WebServlet("*.user")
 public class Controller extends HttpServlet{
